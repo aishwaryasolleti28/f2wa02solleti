@@ -25,6 +25,9 @@ router.get('/', function(req, res, next) {
   pow:pow,
   sign:sign,
   tanh:tanh,
-  trunc:trunc,
+  trunc:trunc
 
 });
+});
+
+module.exports = router;
